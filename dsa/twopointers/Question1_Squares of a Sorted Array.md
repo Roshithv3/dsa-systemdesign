@@ -130,22 +130,6 @@ print(sorted_squares([1, 2, 3]))           # [1, 4, 9]
 print(sorted_squares([0]))                 # [0]
 ```
 
-### Line-by-line Explanation
-
-| Line | What it does |
-|------|-------------|
-| `n = len(nums)` | Store length for convenience |
-| `result = [0] * n` | Create output array of same size, filled with zeros |
-| `left, right = 0, n - 1` | Initialize two pointers at both ends |
-| `pos = n - 1` | We fill result from the **right** because we place the largest value first |
-| `while left <= right` | Keep going until both pointers meet |
-| `left_sq = nums[left] ** 2` | Square the element at the left pointer |
-| `right_sq = nums[right] ** 2` | Square the element at the right pointer |
-| `if left_sq > right_sq` | Whichever square is larger gets placed at `pos` |
-| `left += 1` or `right -= 1` | Move the pointer whose square was used |
-| `pos -= 1` | Move fill position one step to the left |
-
----
 
 ## Java — Two Pointer
 
