@@ -177,10 +177,3 @@ Output: "apbqrs" ✓
 
 ---
 
-## Related Problems
-
-| Problem | Difficulty | Pattern |
-|---|---|---|
-| Zip Two Lists | Easy | Two Pointers |
-| Interleaving String (#97) | Hard | DP |
-| String Without AAA or BBB (#984) | Medium | Greedy |
